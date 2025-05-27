@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clash Royale - Seleção de Cartas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="menu">
+    <h1>Selecione suas Cartas</h1>
+    <div id="cards">
+      <!-- Carta Bárbaro -->
+      <div class="card" id="card-barbaro" data-card="barbaro">
+        <img src="https://3.bp.blogspot.com/-UYazgEzVVbo/VscHAmmg7WI/AAAAAAAAmOQ/Vvs1aYExsSE/s1600/barbaro-clash-royale.png" alt="Carta Bárbaro">
+        <p>Bárbaro</p>
+        <p><strong>Custo:</strong> 5 Energia</p>
+      </div>
+    </div>
+    <button id="playButton">Jogar</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <h2>Campo de Batalha</h2>
+    <div id="battlefield">
+      <!-- As cartas selecionadas serão colocadas aqui -->
+    </div>
+    <div id="energy">
+      <p><strong>Energia:</strong> <span id="currentEnergy">10</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
